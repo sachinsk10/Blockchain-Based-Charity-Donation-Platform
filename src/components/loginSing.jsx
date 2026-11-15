@@ -4,6 +4,7 @@ import { auth } from '../firebase'; // Adjust the import path according to your 
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import '../styles/loginsign.css';
 
+
 const LoginSign = () => {
   const navigate = useNavigate(); 
 
@@ -109,7 +110,7 @@ const LoginSign = () => {
           Welcome Back!
         </h2>
         <p className="animation" style={{ '--i': '1', '--j': '21' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, rem?
+         
         </p>
       </div>
 
@@ -151,7 +152,7 @@ const LoginSign = () => {
           Welcome Back!
         </h2>
         <p className="animation" style={{ '--i': '18', '--j': '1' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, rem?
+         
         </p>
       </div>
     </div>

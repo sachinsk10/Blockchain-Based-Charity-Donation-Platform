@@ -2,6 +2,7 @@ import React from 'react';
 import Tumblr from '../assets/videoplayback.mp4';
 import Tumblr1 from '../assets/videoplayback1.mp4';
 
+
 const VideoSection = ({ videoSrc, isReversed,text }) => (
   <div className={`flex flex-col md:flex-row items-center justify-between my-8 px-4 md:px-14 ${isReversed ? 'md:flex-row-reverse' : ''}`}>
     <video

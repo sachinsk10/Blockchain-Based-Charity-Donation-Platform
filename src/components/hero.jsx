@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPlay } from "react-icons/fa";
 import HeroSection from './HeroSection';
+
 import "../styles/scroall.css"
 import img1 from '../assets/slider1_1.png';
 import img2 from '../assets/slider1_2.png';
@@ -12,6 +13,7 @@ import img7 from '../assets/slider1_7.png';
 import img8 from '../assets/slider1_8.png';
 import img9 from '../assets/slider1_9.png';
 import img10 from '../assets/slider1_10.png';
+import { Navigate } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -23,7 +25,9 @@ const Hero = () => {
         <p className='text-lg text-gray-600 mt-5 w-full md:w-[600px]'>Donate to charity and help make a difference.</p>
         <div className='flex mt-10'>
           <div className='px-5 py-3 rounded bg-orange-400 cursor-pointer'>
-            <button className='text-white outline-none'>Donate Now</button>
+           
+            <button className='text-white outline-none' ><a href="/project">Donate Now </a></button>
+            
           </div>
           <div className='flex items-center ml-4'>
             <FaPlay className='mr-2' />

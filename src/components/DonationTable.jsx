@@ -3,12 +3,12 @@ import NavButton from './NavButton';
 
 const DonationTable = () => {
   const donations = [
-    { id: 1, donor: 'Ram bhav', amount: 'ETH 100', project: 'Water sahti', date: '2024-08-31' },
-    { id: 2, donor: 'Sam bhav', amount: 'ETH 250', project: 'School sahti', date: '2024-08-30' },
+    { id: 1, donor: 'Aditya Vijapure', amount: 'ETH 1.00', project: 'Water sahti', date: '2024-08-31' },
+    { id: 2, donor: 'Aman Dikole', amount: 'ETH 2.50', project: 'School sahti', date: '2024-08-30' },
   ];
 
   return (
-    <div className='flex w-screen h-screen'>
+    <div className='flex w-screen h-screen'>    
       <NavButton/>
     <div className="bg-white p-6 rounded-lg w-screen shadow-md">
       <table className="min-w-full table-auto">

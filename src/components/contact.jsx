@@ -34,14 +34,14 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen bg-gray-100 p-8">
-        <div className="lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0">
+      <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen p-6">
+        {/* <div className="lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0">
           <img
-            className="max-w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-in-out"
+            className="w-[30vw] h-full rounded-lg shadow-lg transform hover:scale-105 mr-5 transition-transform duration-500 ease-in-out"
             src="https://img.freepik.com/free-vector/computer-with-online-charity-donation_24877-54509.jpg?t=st=1725093545~exp=1725097145~hmac=6639c670826495a0252ab2389c472797419b9594a35f98154e339bfdfbdd9e3d&w=740"
             alt="Donation image"
-          />
-        </div>
+          />sss
+        </div> */}
         <div className="w-full max-w-lg lg:w-1/2 bg-white p-8 rounded-lg shadow-lg animate-fade-in">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-6 animate-slide-down">Contact</h2>
           <p className="text-lg text-center text-gray-600 mb-8 animate-slide-down">Feel free to reach out to me for any questions or opportunities!</p>
